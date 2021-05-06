@@ -1,0 +1,11 @@
+/home/epita/Downloads/Shpellbook/Library/bin/Debug/netcoreapp3.1/Library
+/home/epita/Downloads/Shpellbook/Library/bin/Debug/netcoreapp3.1/Library.deps.json
+/home/epita/Downloads/Shpellbook/Library/bin/Debug/netcoreapp3.1/Library.runtimeconfig.json
+/home/epita/Downloads/Shpellbook/Library/bin/Debug/netcoreapp3.1/Library.runtimeconfig.dev.json
+/home/epita/Downloads/Shpellbook/Library/bin/Debug/netcoreapp3.1/Library.dll
+/home/epita/Downloads/Shpellbook/Library/bin/Debug/netcoreapp3.1/Library.pdb
+/home/epita/Downloads/Shpellbook/Library/obj/Debug/netcoreapp3.1/Library.csprojAssemblyReference.cache
+/home/epita/Downloads/Shpellbook/Library/obj/Debug/netcoreapp3.1/Library.AssemblyInfoInputs.cache
+/home/epita/Downloads/Shpellbook/Library/obj/Debug/netcoreapp3.1/Library.AssemblyInfo.cs
+/home/epita/Downloads/Shpellbook/Library/obj/Debug/netcoreapp3.1/Library.dll
+/home/epita/Downloads/Shpellbook/Library/obj/Debug/netcoreapp3.1/Library.pdb

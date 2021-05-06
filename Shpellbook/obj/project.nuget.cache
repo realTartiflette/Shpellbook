@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uz1PN17gZ00iCf02fNN396aQUzAmkZAP6UTOpy1Lu/9F2nhxL5P7SDKpRH7WroR0tAxpYb3q/24Lbm/qI3GuFw==",
+  "success": true,
+  "projectFilePath": "/home/epita/Downloads/Shpellbook/Shpellbook/Shpellbook.csproj",
+  "expectedPackageFiles": [
+    "/home/epita/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
