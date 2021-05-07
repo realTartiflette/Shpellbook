@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/epita/Downloads/Shpellbook/Shpellbook/Shpellbook.csproj": {}
+    "/home/epita/Shpellbook/Shpellbook/Shpellbook.csproj": {}
   },
   "projects": {
-    "/home/epita/Downloads/Shpellbook/Shpellbook/Shpellbook.csproj": {
+    "/home/epita/Shpellbook/Shpellbook/Shpellbook.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/epita/Downloads/Shpellbook/Shpellbook/Shpellbook.csproj",
+        "projectUniqueName": "/home/epita/Shpellbook/Shpellbook/Shpellbook.csproj",
         "projectName": "Shpellbook",
-        "projectPath": "/home/epita/Downloads/Shpellbook/Shpellbook/Shpellbook.csproj",
+        "projectPath": "/home/epita/Shpellbook/Shpellbook/Shpellbook.csproj",
         "packagesPath": "/home/epita/.nuget/packages/",
-        "outputPath": "/home/epita/Downloads/Shpellbook/Shpellbook/obj/",
+        "outputPath": "/home/epita/Shpellbook/Shpellbook/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/epita/.nuget/NuGet/NuGet.Config"

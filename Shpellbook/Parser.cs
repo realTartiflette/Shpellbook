@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Shpellbook
@@ -15,7 +16,7 @@ namespace Shpellbook
 
         public Parser(TextReader input)
         {
-            throw new NotImplementedException();
+            _input = input;
         }
 
         /// <summary>
@@ -31,7 +32,15 @@ namespace Shpellbook
         /// </example>
         public Command ParseInput()
         {
-            throw new NotImplementedException();
+            Command res = null;
+            string s = _input.ReadLine();
+            if (s != null)
+            {
+                string[] parse = s.Split(' '); 
+                res = new Command(parse);
+            }
+
+            return res;
         }
     }
 }

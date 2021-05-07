@@ -55,7 +55,8 @@ namespace Library
                 return false;
             });
 
-            return primes;
+            //return primes;
+            throw new NotImplementedException();
         }
         
         
@@ -75,9 +76,10 @@ namespace Library
                 arrTasks[i] = task;
                 task.Start();
                 start = end + 1;
-                end = ;
+                //end = ;
+                
             }
-            
+            throw new NotImplementedException();
         }
     }
 }

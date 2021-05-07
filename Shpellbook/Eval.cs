@@ -13,6 +13,7 @@ namespace Shpellbook
             {
                 {"ls", Builtins.Ls},
                 {"sleep", Builtins.Sleep},
+                {"pwd", Builtins.Pwd},
             };
 
         public static List<Task<int>> jobs = new List<Task<int>>();
@@ -66,7 +67,9 @@ namespace Shpellbook
         /// </returns>
         public static int Evaluate(Command command)
         {
-            throw new NotImplementedException();
+            Task<int> task = EvaluatePath(command);
+            //task.Start();
+            return task.Result;
         }
     }
 }

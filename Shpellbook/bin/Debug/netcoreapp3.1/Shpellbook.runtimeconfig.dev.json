@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/epita/.dotnet/store/|arch|/|tfm|",
+      "/home/epita/.nuget/packages"
+    ]
+  }
+}

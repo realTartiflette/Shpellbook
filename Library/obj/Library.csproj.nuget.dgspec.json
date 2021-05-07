@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/epita/Downloads/Shpellbook/Library/Library.csproj": {}
+    "/home/epita/Shpellbook/Library/Library.csproj": {}
   },
   "projects": {
-    "/home/epita/Downloads/Shpellbook/Library/Library.csproj": {
+    "/home/epita/Shpellbook/Library/Library.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/epita/Downloads/Shpellbook/Library/Library.csproj",
+        "projectUniqueName": "/home/epita/Shpellbook/Library/Library.csproj",
         "projectName": "Library",
-        "projectPath": "/home/epita/Downloads/Shpellbook/Library/Library.csproj",
+        "projectPath": "/home/epita/Shpellbook/Library/Library.csproj",
         "packagesPath": "/home/epita/.nuget/packages/",
-        "outputPath": "/home/epita/Downloads/Shpellbook/Library/obj/",
+        "outputPath": "/home/epita/Shpellbook/Library/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/epita/.nuget/NuGet/NuGet.Config"

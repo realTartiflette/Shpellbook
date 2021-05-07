@@ -1,0 +1,11 @@
+/home/epita/Shpellbook/Shpellbook/bin/Debug/netcoreapp3.1/Shpellbook
+/home/epita/Shpellbook/Shpellbook/bin/Debug/netcoreapp3.1/Shpellbook.deps.json
+/home/epita/Shpellbook/Shpellbook/bin/Debug/netcoreapp3.1/Shpellbook.runtimeconfig.json
+/home/epita/Shpellbook/Shpellbook/bin/Debug/netcoreapp3.1/Shpellbook.runtimeconfig.dev.json
+/home/epita/Shpellbook/Shpellbook/bin/Debug/netcoreapp3.1/Shpellbook.dll
+/home/epita/Shpellbook/Shpellbook/bin/Debug/netcoreapp3.1/Shpellbook.pdb
+/home/epita/Shpellbook/Shpellbook/obj/Debug/netcoreapp3.1/Shpellbook.csprojAssemblyReference.cache
+/home/epita/Shpellbook/Shpellbook/obj/Debug/netcoreapp3.1/Shpellbook.AssemblyInfoInputs.cache
+/home/epita/Shpellbook/Shpellbook/obj/Debug/netcoreapp3.1/Shpellbook.AssemblyInfo.cs
+/home/epita/Shpellbook/Shpellbook/obj/Debug/netcoreapp3.1/Shpellbook.dll
+/home/epita/Shpellbook/Shpellbook/obj/Debug/netcoreapp3.1/Shpellbook.pdb

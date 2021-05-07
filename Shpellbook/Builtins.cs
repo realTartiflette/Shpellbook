@@ -86,5 +86,39 @@ namespace Shpellbook
 
             return 0;
         }
+
+        public static int Pwd(string[] args)
+        {
+            if (args.Length > 1)
+            {
+                Console.Error.WriteLine("pwd: too many arguments");
+                return 1;
+            }
+            Console.Write(Directory.GetCurrentDirectory());
+            return 0;
+        }
+
+        public static int Cd(string[] args)
+        {
+            if (args.Length > 2)
+            {
+                Console.Error.WriteLine("pwd: too many arguments");
+                return 1;
+            }
+            
+            
+            
+            
+            
+            
+            if (args.Length == 1)
+            {
+                Console.Error.WriteLine("cd: {0}: No such file or directory", Directory.GetCurrentDirectory());
+                return 1;
+            }
+            
+            
+            return 0;
+        }
     }
 }
