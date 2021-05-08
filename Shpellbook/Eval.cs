@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Threading.Tasks;
 
 namespace Shpellbook
@@ -14,6 +15,10 @@ namespace Shpellbook
                 {"ls", Builtins.Ls},
                 {"sleep", Builtins.Sleep},
                 {"pwd", Builtins.Pwd},
+                {"cd", Builtins.Cd},
+                {"echo", Builtins.Echo},
+                {"cat", Builtins.Cat},
+                {"exit", Builtins.Exit},
             };
 
         public static List<Task<int>> jobs = new List<Task<int>>();
@@ -67,9 +72,57 @@ namespace Shpellbook
         /// </returns>
         public static int Evaluate(Command command)
         {
-            Task<int> task = EvaluatePath(command);
-            //task.Start();
-            return task.Result;
+            Task<int> builtinTask = EvaluateBuiltin(command);
+            BackgroundEvent backgroundEvent = new BackgroundEvent();
+            Task[] tasks = {builtinTask, backgroundEvent.task};
+            Task.WaitAny(tasks);
+            //builtinTask.RunSynchronously(); 
+            //return task.Result;
+            
+            //backgroundEvent.task.RunSynchronously();
+
+            if (builtinTask.IsCompleted)
+                return builtinTask.Result;
+            jobs.Add(builtinTask);
+            return -1;
         }
+
+        public static Task<int> EvaluateBuiltin(Command command)
+        {
+            Task<int> res = null;
+            foreach (var cmd in builtins)
+            {
+                if (cmd.Key == command.args[0])
+                {
+                    res = new Task<int>(() => cmd.Value(command.args));
+                    res.Start();
+                    break;
+                }
+            }
+
+            return res;
+        }
+
+        public static void UpdateJobs()
+        {
+            for (int i = 0; i < jobs.Count; i++)
+            {
+                if (jobs[i].IsCompleted)
+                {
+                    Console.WriteLine("Job number {0} terminated with code {1}", i, jobs[i].Result);
+                    jobs.RemoveAt(i);
+                }
+            }
+        }
+
+        /*public static void Run(TextReader input, bool is_console)
+        {
+            Parser parser = new Parser(input);
+            while (is_console)
+            {
+                Evaluate()
+                UpdateJobs();
+            }
+        }*/
     }
 }

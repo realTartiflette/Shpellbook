@@ -36,7 +36,7 @@ namespace Shpellbook
             string s = _input.ReadLine();
             if (s != null)
             {
-                string[] parse = s.Split(' '); 
+                string[] parse = s.Split(' ', StringSplitOptions.RemoveEmptyEntries);
                 res = new Command(parse);
             }
 
